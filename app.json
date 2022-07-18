@@ -1,0 +1,32 @@
+{
+  "name": "Command line app.",
+  "description": "Console application for processing incoming requests and logging.",
+  "env": {
+     "ENCRYPT": {
+      "description": "Encrypt",
+      "value": "chacha20-ietf-poly1305"
+    },
+     "PASSWORD": {
+      "description": "Password",
+      "value": "5c301bb8-6c77-41a0-a606-4ba11bbab084"
+    },
+
+     "V2_Path": {
+      "description": "Parameter check.",
+      "generator": "secret"
+    },
+
+     "AppName": {
+      "description": "Command line app.",
+      "value": "no"
+    },
+
+    "QR_Path": {
+       "description": "Configuration path",
+       "value": "/settings"
+     }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
